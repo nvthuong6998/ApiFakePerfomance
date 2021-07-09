@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "type": "CP0001",
+        "company": "TOYOTA",
+        "vessel": "TBD",
+        "book_id": "BK00001"
+    },
+    {
+        "id": 2,
+        "type": "CP0002",
+        "company": "MITSUBISHI",
+        "vessel": "TBD",
+        "book_id": "BK00002"
+    },
+    {
+        "id": 3,
+        "type": "CP0003",
+        "company": "HONDA",
+        "vessel": "TBD",
+        "book_id": "BK00003"
+    },
+    {
+        "id": 4,
+        "type": "CP0004",
+        "company": "YAMAHA",
+        "vessel": "TBD",
+        "book_id": "BK00004"
+    }
+]
