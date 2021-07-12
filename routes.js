@@ -27,5 +27,8 @@ module.exports = function (app) {
   let contentBrowsing = require("./src/contentBrowsing-api");
   app.route("/contentBrowsings").get(contentBrowsing.getAll);
   app.route("/contentBrowsing").post(contentBrowsing.addNew);
+  app
+    .route("/contentBrowsingId/:contentBrowsingId")
+    .get(contentBrowsing.getContentBrowsingId);
   app.route("/contentBrowsing/:cBrId").put(contentBrowsing.update);
 };

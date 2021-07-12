@@ -22,7 +22,7 @@ module.exports = {
   getContentBrowsingId: (req, res) => {
     let data = JSON.parse(fs.readFileSync(path, "utf8"));
     data = isArray(data)
-      ? data.filter((res) => res[`id`] == req.params.id)
+      ? data.filter((res) => res[`id`] == req.params.contentBrowsingId)
       : res.json(result.resultBean(data, 200, "OK"));
   },
   addNew: (req, res) => {
